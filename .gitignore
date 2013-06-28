@@ -1,0 +1,11 @@
+#Delete useless files
+*.sdf
+*.suo
+*.opensdf
+/ipch/
+
+Debug/
+demo/Debug/
+Release/
+demo/Release/
+
