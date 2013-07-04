@@ -13,3 +13,9 @@ Boost 1.53
 Usage:
 
 demo.exe ..\data\<filename>.obj
+
+Controls:
+WASD and mouse
+
+Known issues:
+Camera won't look the obj at starup
