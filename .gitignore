@@ -3,6 +3,8 @@
 *.suo
 *.opensdf
 /ipch/
+*.vcproj*
+*.vcxproj*
 
 Debug/
 demo/Debug/
