@@ -1,8 +1,8 @@
 #ifndef D3DAPP_H
 #define D3DAPP_H
 
-#include "d3dUtil.h"
-#include "GameTimer.h"
+#include "d3dUtil.hpp"
+#include "GameTimer.hpp"
 #include <string>
 
 class D3DApp {

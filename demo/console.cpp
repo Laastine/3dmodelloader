@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <io.h>
-#include "console.h"
+#include "console.hpp"
 
 #ifndef _USE_OLD_OSTREAMS
 using namespace std;

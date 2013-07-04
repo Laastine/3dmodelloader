@@ -1,11 +1,15 @@
+//Shader
+
 #include "lighthelper.fx"
 
-cbuffer cbPerFrame {
+cbuffer cbPerFrame
+{
 	Light g_Light;
 	float3 g_EyePosW;
 };
 
-cbuffer cbPerObject {
+cbuffer cbPerObject
+{
 	float4x4 g_World;
 	float4x4 g_WVP; 
 	
@@ -19,26 +23,30 @@ Texture2D ObjTexture;
 SamplerState ObjSamplerState;
 Texture2D g_SpecMap;
 
-SamplerState g_TriLinearSam {
+SamplerState g_TriLinearSam
+{
 	Filter = ANISOTROPIC;
 	AddressU = Wrap;
 	AddressV = Wrap;
 };
 
-struct VS_IN {
+struct VS_IN
+{
 	float3 posL		: POSITION;
 	float3 normalL	: NORMAL;
 	float2 texC		: TEXCOORD;
 };
 
-struct VS_OUT {
+struct VS_OUT
+{
 	float4 posH		: SV_POSITION;
 	float3 posW		: POSITION;
 	float3 normalW	: NORMAL;
 	float2 texC		: TEXCOORD;
 };
 
-VS_OUT VS(VS_IN vIn) {
+VS_OUT VS(VS_IN vIn)
+{
 	VS_OUT vOut;
 	
 	// Transform to homogeneous clip space
@@ -55,7 +63,8 @@ VS_OUT VS(VS_IN vIn) {
 	return vOut;
 }
 
-float4 PS(VS_OUT pIn) : SV_Target {
+float4 PS(VS_OUT pIn) : SV_Target
+{
 	// Get materials from texture maps.
 	//float4 diffuse = g_DiffuseMap.Sample( g_TriLinearSam, pIn.texC );
 	float4 diffuse = ObjTexture.Sample( ObjSamplerState, pIn.texC );
@@ -74,8 +83,10 @@ float4 PS(VS_OUT pIn) : SV_Target {
     return float4(litColor, diffuse.a);
 }
 
-technique10 TexTech {
-    pass P0 {
+technique10 TexTech
+{
+    pass P0
+    {
         SetVertexShader( CompileShader( vs_4_0, VS() ) );
         SetGeometryShader( NULL );
         SetPixelShader( CompileShader( ps_4_0, PS() ) );

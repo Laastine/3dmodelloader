@@ -91,16 +91,16 @@
     <ClCompile Include="ObjParser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="console.h" />
-    <ClInclude Include="d3dApp.h" />
-    <ClInclude Include="d3dUtil.h" />
-    <ClInclude Include="GameTimer.h" />
-    <ClInclude Include="Light.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="Material.h" />
-    <ClInclude Include="ObjParser.h" />
-    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="console.hpp" />
+    <ClInclude Include="d3dApp.hpp" />
+    <ClInclude Include="d3dUtil.hpp" />
+    <ClInclude Include="GameTimer.hpp" />
+    <ClInclude Include="Light.hpp" />
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="Material.hpp" />
+    <ClInclude Include="ObjParser.hpp" />
+    <ClInclude Include="Vertex.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lighthelper.fx" />

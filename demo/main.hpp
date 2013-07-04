@@ -1,7 +1,6 @@
-#include "d3dApp.h"
-#include "ObjParser.h"
-#include "Block.h"
-#include "Light.h"
+#include "d3dApp.hpp"
+#include "ObjParser.hpp"
+#include "Light.hpp"
 
 class Direct3DApp : public D3DApp {
     public:

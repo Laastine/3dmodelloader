@@ -1,10 +1,10 @@
 #ifndef OBJPARSER_H
 #define OBJPARSER_H
 
-#include "d3dUtil.h"
-#include "Vertex.h"
-#include "Material.h"
-#include "Light.h"
+#include "d3dUtil.hpp"
+#include "Vertex.hpp"
+#include "Material.hpp"
+#include "Light.hpp"
 #include <iostream>
 #include <fstream>
 #include <string>

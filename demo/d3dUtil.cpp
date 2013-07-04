@@ -1,4 +1,4 @@
-#include "d3dUtil.h"
+#include "d3dUtil.hpp"
 #include <Windows.h>
 #include <string>
 #include <sstream>

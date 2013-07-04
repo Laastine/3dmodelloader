@@ -1,4 +1,4 @@
-#include "GameTimer.h"
+#include "GameTimer.hpp"
 #include <windows.h>
 
 GameTimer::GameTimer() : m_secondsPerCount(0.0), m_deltaTime(-1.0), m_baseTime(0),

@@ -1,7 +1,7 @@
 #ifndef VERTEX_H
 #define VERTEX_H
 
-#include "d3dUtil.h"
+#include "d3dUtil.hpp"
 #include <vector>
 
 struct Vertex {

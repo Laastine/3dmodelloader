@@ -1,10 +1,9 @@
-#include "main.h"
-#include "Camera.h"
-#include "console.h"
-#include "ObjParser.h"
-#include "handleZLib.h"
-#include "Vertex.h"
-#include "d3dUtil.h"
+#include "main.hpp"
+#include "Camera.hpp"
+#include "console.hpp"
+#include "ObjParser.hpp"
+#include "Vertex.hpp"
+#include "d3dUtil.hpp"
 #include <iostream>
 
 

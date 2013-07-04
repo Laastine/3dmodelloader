@@ -1,10 +1,10 @@
-#include "ObjParser.h"
-#include "Vertex.h"
-#include "d3dUtil.h"
-#include "Camera.h"
-#include "main.h"
-#include "Material.h"
-#include "Vertex.h"
+#include "ObjParser.hpp"
+#include "Vertex.hpp"
+#include "d3dUtil.hpp"
+#include "Camera.hpp"
+#include "main.hpp"
+#include "Material.hpp"
+#include "Vertex.hpp"
 #include <string>
 #include <iostream>
 #include <sstream>

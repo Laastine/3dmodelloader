@@ -1,7 +1,7 @@
 #ifndef MATERIAL_H
 #define MATERIAL_H
 
-#include "d3dUtil.h"
+#include "d3dUtil.hpp"
 #include <iostream>
 
 using namespace std;

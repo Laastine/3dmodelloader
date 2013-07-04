@@ -1,4 +1,4 @@
-#include "d3dApp.h"
+#include "d3dApp.hpp"
 #include <sstream>
 
 LRESULT CALLBACK
@@ -113,8 +113,8 @@ void D3DApp::onResize() {
     depthStencilDesc.MipLevels = 1;
     depthStencilDesc.ArraySize = 1;
     depthStencilDesc.Format    = DXGI_FORMAT_D24_UNORM_S8_UINT;
-    depthStencilDesc.SampleDesc.Count   = 8;	// multisampling must match
-    depthStencilDesc.SampleDesc.Quality = 16;	// swap chain values
+    depthStencilDesc.SampleDesc.Count   = 1;	// multisampling must match
+    depthStencilDesc.SampleDesc.Quality = 0;	// swap chain values
     depthStencilDesc.Usage          = D3D10_USAGE_DEFAULT;
     depthStencilDesc.BindFlags      = D3D10_BIND_DEPTH_STENCIL;
     depthStencilDesc.CPUAccessFlags = 0;
@@ -327,8 +327,8 @@ void D3DApp::initDirect3D() {
     sd.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
     sd.BufferDesc.ScanlineOrdering = DXGI_MODE_SCANLINE_ORDER_UNSPECIFIED;
     sd.BufferDesc.Scaling = DXGI_MODE_SCALING_UNSPECIFIED;
-    sd.SampleDesc.Count   = 8;
-    sd.SampleDesc.Quality = 16;
+    sd.SampleDesc.Count   = 1;
+    sd.SampleDesc.Quality = 0;
     sd.BufferUsage  = DXGI_USAGE_RENDER_TARGET_OUTPUT;
     sd.BufferCount  = 1;
     sd.OutputWindow = m_hMainWnd;
