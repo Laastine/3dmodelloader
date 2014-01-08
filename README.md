@@ -6,6 +6,8 @@ Simple model loader demo for .obj file format.
 Implemented using examples from "Introduction to 3D Game Programming with Direct 3D 10" 
 and braynzarsoft.net .obj model loader examples.
 
+Few images: http://laastine.kapsi.fi/homepage/modelloadergallery.html
+
 3rd party libraries:
 DirectX SDK (June 2010)
 Boost 1.53
@@ -16,6 +18,3 @@ demo.exe ..\data\<filename>.obj
 
 Controls:
 WASD and mouse
-
-Known issues:
-Camera won't look the obj at starup
