@@ -6,7 +6,9 @@ Simple model loader demo for .obj file format.
 Implemented using examples from "Introduction to 3D Game Programming with Direct 3D 10" 
 and braynzarsoft.net .obj model loader examples.
 
-![alt tag](http://laastine.kapsi.fi/homepage/modelloader/SpikeBall.png)
+![alt tag](http://laastine.kapsi.fi/demon.png)
+
+![alt tag](http://laastine.kapsi.fi/demon.png)
 
 More images: http://laastine.kapsi.fi/homepage/modelloadergallery.html
 
