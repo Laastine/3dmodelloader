@@ -8,8 +8,6 @@ and braynzarsoft.net .obj model loader examples.
 
 ![alt tag](http://laastine.kapsi.fi/demon.png)
 
-![alt tag](http://laastine.kapsi.fi/demon.png)
-
 More images: http://laastine.kapsi.fi/homepage/modelloadergallery.html
 
 3rd party libraries:
