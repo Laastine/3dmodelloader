@@ -7,13 +7,13 @@ and braynzarsoft.net .obj model loader examples.
 
 ![alt tag](http://laastine.kapsi.fi/demon_s.png)
 
-###3rd party libraries
+## 3rd party libraries
 DirectX SDK (June 2010)
 Boost 1.53
 
-###Usage
+## Usage
 
 demo.exe ..\data\<filename>.obj
 
-###Controls
+## Controls
 WASD and mouse
